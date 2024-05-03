@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+    font-family: "Sora", sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #030620;
+}
+
+/* INICIO DA NAVBAR */
+.navbar{
+    display: flex;
+    padding: 1.5vh;
+    color: #EDE0D4;
+}
+
+.navbar #hd{
+    position: relative;
+    left: 4vh;
+}
+
+.navbar .esc{
+    position: relative;
+    margin: 0.5vh;
+    font-size: 20pt;
+    top: 1.6vh;
+    left: 4.5vh;
+}
+
+.navbar .esc span{
+    position: relative;
+    top: 2.9vh;
+    right: 13vh;
+}
+
+.navbar li{
+    padding-left: 10vh;
+    position: relative;
+    left: 22rem;
+    top: 1.6rem;
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #EDE0D4;
+    border: solid 1px #EDE0D4;
+    padding: 1vh;
+    border-radius: 5px;
+}
+/* FIM DA NAVBAR */
+
+/* INICIO DA SECTION */
+.conteudo{
+    display: flex;
+}
+
+.conteudo #text{
+    padding: 5vh;
+    position: absolute;
+    left: 40rem;
+    font-size: 20pt;
+}
